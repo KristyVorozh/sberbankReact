@@ -1,0 +1,26 @@
+.suggestions{
+    display: flex;
+    align-items: flex-start;
+    max-width: 1117px;
+    margin-bottom: 60px;
+}
+.suggestions_flex{
+    margin-right: 21px;
+}
+.suggestions_flex-img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.suggestions_flex-text{
+    display: flex;
+    align-items: center;
+}
+.suggestions_flex-info{
+    margin-left: 15px;
+    font-family: 'Geometrica';
+}
+.suggestions_flex-info p{
+    opacity: 0.4;
+    padding-bottom: 4px;
+    font-size: 14px;
+}

@@ -1,0 +1,15 @@
+.header_text a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 55px;
+    color: #000000;
+    opacity: 0.4;
+    padding-right: 20px;
+    margin-left: 35px;
+}
+body .link_active{
+    opacity: 1;
+    border-bottom: 1px solid #000;
+    padding-right: 0;
+    line-height: 24px;
+}

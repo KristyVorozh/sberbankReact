@@ -1,0 +1,54 @@
+.bonus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.bonus_img img{
+    margin-right: 10px;
+}
+.bonus_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bonus_img{
+    background: white;
+    padding: 19px;
+    border-radius: 79px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bonus_text{
+    background: white;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Geometrica';
+    font-size: 16px;
+}
+.bonus_img-flex p{
+    position:absolute;
+    margin-left: 70px;
+    background: #000000;
+    border-radius: 50px;
+    font-family: 'Geometrica_Regular';
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+body .bonus_img-flex1{
+    position:absolute;
+    margin-left: 70px;
+    background: #000000;
+    border-radius: 50px;
+    font-family: 'Geometrica_Regular';
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

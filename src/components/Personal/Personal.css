@@ -1,0 +1,29 @@
+.bonus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bonus_img img{
+    margin-right: 10px;
+}
+.bonus_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bonus_img{
+    background: white;
+    padding: 19px;
+    border-radius: 79px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bonus_text{
+    background: white;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Geometrica';
+    font-size: 16px;
+}

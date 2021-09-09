@@ -1,0 +1,154 @@
+.main{
+    background: #E5E5E5;
+}
+h1{
+    font-family: "Geometrica_Regular";
+    text-align: center;
+}
+.main h1{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 48px;
+}
+.links_partner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.links_partner a{
+    font-size: 18px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    line-height: 24px;
+    color: black;
+    background: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.links_partner a:hover{
+    background: #00D36D;
+    color: white;
+}
+body .links_active{
+    background: #00D36D;
+    color: white;
+}
+.main_checkbox{
+    font-family: 'Geometrica';
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.main_checkbox p{
+    font-size: 18px;
+    max-width: 113px;
+    line-height: 24px;
+    text-align: center;
+}
+.main_checkbox-active{
+    color: #00D36D;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 24px;
+    margin: 0px 24px;
+}
+.switch input {display:none;}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    border: 1px solid #c7c8ca;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    left: 4px;
+    bottom: 2px;
+    background-color: #00D36D;
+
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #00D36D;
+    border: 1px solid #00D36D;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #00D36D;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background: white;
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+.main_partner-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+.main_partner-flex button,
+.main_suggestions-flex button
+{
+    background: #00D36D;
+    border: 1px solid #00D36D;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Geometrica';
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.main_partner-flex button:hover,
+.main_suggestions-flex button:hover{
+    background: white;
+    border: 1px solid white;
+    color: black;
+}
+.main_suggestions-flex h1{
+    max-width: 715px;
+    padding: 0;
+    font-size: 32px;
+    padding-bottom: 34px;
+}
+.main_suggestions-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.q{
+    background: #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.sale{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 173px;
+}

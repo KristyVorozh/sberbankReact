@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+.header{
+    padding: 18px 20px;
+    font-family: 'Geometrica';
+}
+.header_text{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.town_change span{
+    font-family: 'Geometrica_Regular';
+}
+.town_change{
+    -webkit-box-shadow: 4px 4px 52px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 52px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 52px 0px rgba(34, 60, 80, 0.2);
+    position: absolute;
+    margin-top: 94px;
+    background: white;
+    z-index: 999999;
+    right: 180px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.header_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_flex-town{
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header_flex-town p{
+    font-size: 14px;
+    color: #000000;
+    margin-left: 5px;
+}
+.header_flex-exit{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+.header_flex-exit img{
+    cursor: pointer;
+}
+button{
+    background: transparent;
+    border: 1px solid #00D36D;
+    padding: 10px 19px;
+    margin-left: 23px;
+    border-radius: 8px;
+    color: #00D36D;
+    transition: all .5s;
+    cursor: pointer;
+}
+button:hover{
+    background:#00D36D;
+    color: #ffffff;
+}
+.town_change-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.town_change-button button{
+    margin-left: 0;
+    border: 1px solid #00D36D;
+}
+.town_change-button .button{
+    background: #00D36D;
+    color: white;
+    margin-right: 5px;
+}
+.search_change{
+    position: absolute;
+    right: 98px;
+    margin-top: 33px;
+    background: white;
+    -webkit-box-shadow: 4px 4px 52px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 52px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 52px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+    z-index: 999999;
+    padding: 20px;
+}
+.search_change img{
+    cursor: pointer;
+}
+.search_change input{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+    padding-bottom: 2px;
+    outline: none;
+    opacity: 0.5;
+    width: 200px;
+}
+@media (max-width:1480px) {
+    .town_change{
+        right: 120px;
+    }
+}
+@media (max-width:1380px) {
+    .town_change{
+        right: 100px;
+    }
+}
+@media (max-width:1280px) {
+    .town_change{
+        right: 24px;
+    }
+}

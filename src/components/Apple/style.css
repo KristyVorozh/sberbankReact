@@ -1,0 +1,32 @@
+.apple{
+    background: #E5E5E5;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 auto;
+}
+p {
+    margin: 0;
+}
+a{
+    font-family: 'Geometrica';
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline: none;
+}
